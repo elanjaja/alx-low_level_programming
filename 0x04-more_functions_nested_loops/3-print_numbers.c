@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * Print_numbers - print the numbersince (0 up to 9).
+ * Print_numbers - print the number since 0 up to 9
  * Return: The number since 0 up to 9
  */
 
 void print_numbers(void)
+
 {
 int x;
 
