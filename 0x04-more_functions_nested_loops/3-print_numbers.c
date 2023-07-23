@@ -1,18 +1,17 @@
 #include "main.h"
 
 /**
- * print_numbers - print the numbers since 0 up to 9
- * Return: The numbers 0 up to 9
+ * print_numbers - func checks for a digit (0 through 9).
+ *
+ * Return: Always 0.
  */
-
 void print_numbers(void)
-
 {
-	int x;
+	int c;
 
-	for (x = 0; x <= 9; x++)
+	for (c = 48; x <= 58; c++)
 	{
-	_putchart(x + '0');
+	_putchart(c)
 	}
 	_putchart('\n');
 }
